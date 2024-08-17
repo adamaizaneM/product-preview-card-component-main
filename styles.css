@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2ebe3; /* Light beige background color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  width: 600px; /* Increase the width of the card */
+  overflow: hidden;
+  display: flex;
+}
+
+.image-container {
+  width: 50%; /* Adjust the width of the image container */
+  height: auto;
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+  width: 50%; /* Adjust the width of the content container */
+  text-align: left;
+  display: flex;
+  flex-direction: column; /* Ensure content stacks vertically */
+  justify-content: space-between; /* Distribute space evenly */
+}
+
+.card-title {
+  font-size: 14px;
+  color: #7a7a7a;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+}
+
+.main-title {
+  font-size: 22px;
+  color: #1c1c1c;
+  margin: 10px 0;
+}
+
+.main-text {
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.6;
+  margin-bottom: 20px; /* Ensure some space before the price */
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Ensure space between price and button */
+}
+
+.current-price {
+  font-size: 24px;
+  color: #3a8a38;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.original-price {
+  font-size: 14px;
+  color: #b0b0b0;
+  text-decoration: line-through;
+}
+
+.add-to-cart {
+  background-color: #3a8a38;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Make the button full-width */
+}
+
+.add-to-cart img {
+  margin-right: 10px;
+}
+
+.add-to-cart:hover {
+  background-color: #327a31;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #7a7a7a;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: #3a8a38;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
